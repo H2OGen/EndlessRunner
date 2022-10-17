@@ -623,10 +623,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.Player.csproj">
-      <Project>{91D54B9A-EC1A-5BBC-FDA3-88545C00A862}</Project>
-      <Name>Assembly-CSharp-firstpass.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{D06EE09F-6942-83A5-AAF1-0FC4615EE01D}</Project>
       <Name>Unity.Timeline.Player</Name>
