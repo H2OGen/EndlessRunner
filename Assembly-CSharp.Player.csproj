@@ -59,6 +59,8 @@
     <Compile Include="Assets\Script\Player\StandardMove.cs" />
     <Compile Include="Assets\Script\Enviroment\LevelBoundary.cs" />
     <Compile Include="Assets\Script\Player\BlinkMove.cs" />
+    <Compile Include="Assets\Script\Player\ForwardMove.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

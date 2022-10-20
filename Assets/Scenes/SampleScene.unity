@@ -1216,6 +1216,49 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473034432}
   m_Mesh: {fileID: 4300004, guid: ffad064668ec02446b5c0e21cb59764d, type: 3}
+--- !u!1 &478298047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 478298049}
+  - component: {fileID: 478298048}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &478298048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478298047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552d717dac353c54084c4fb67e090a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &478298049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478298047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.135379, y: 1.6156799, z: 13.671389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &625568008
 GameObject:
   m_ObjectHideFlags: 0
@@ -6591,7 +6634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1007228349
 Transform:
   m_ObjectHideFlags: 0
@@ -7297,6 +7340,7 @@ GameObject:
   - component: {fileID: 1949493723}
   - component: {fileID: 1949493729}
   - component: {fileID: 1949493728}
+  - component: {fileID: 1949493731}
   - component: {fileID: 1949493727}
   - component: {fileID: 1949493730}
   m_Layer: 0
@@ -7396,10 +7440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5ca90c88bbeee844a82eb8c37202ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 7
   LeftRightSpeed: 4
-  anim1name: Jump
-  anim2name: Stumble
 --- !u!54 &1949493728
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7441,10 +7482,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b68dc474d08b6b4fa3fbd307dbeef87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 7
-  anim1name: Jump
-  anim2name: Stumble
   BlinkFX: {fileID: 891330179}
+--- !u!114 &1949493731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949493722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95214f1747842e44c9d99d7cd96853ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 7
 --- !u!1 &1968589286
 GameObject:
   m_ObjectHideFlags: 0
